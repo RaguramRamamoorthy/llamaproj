@@ -4,6 +4,9 @@ import os
 
 # App title
 st.set_page_config(page_title="🦙💬 Llama 2 Chatbot")
+st.write(
+    'If you are facing issues please press Clear Chat History button in the sidebar and retype your question '
+    'again , Thank You ')
 
 # Replicate Credentials
 with st.sidebar:
