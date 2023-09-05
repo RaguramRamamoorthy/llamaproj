@@ -20,7 +20,7 @@ with st.sidebar:
     #     st.warning('Please enter your credentials!', icon='⚠️')
     # else:
     #     st.success('Proceed to entering your prompt message!', icon='👉')
-    replicate_api = "r8_RylgPiJn3R7qK9Bq3txiGu2Y6hOH0lv0URHrL"
+    replicate_api = "r8_CkcaC9mcrEnQ6SNpY8TPJd8YwDiVzJk3PZOnq"
     os.environ['REPLICATE_API_TOKEN'] = replicate_api
 
     st.subheader('Models and parameters')
